@@ -86,7 +86,7 @@ header {
   
   header nav ul li a {
 	padding: 0px 15px;
-	font-size: 1.5vw;
+	font-size: 2vw;
   }
 
 /* About */
@@ -95,6 +95,8 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 	align-items: center;
 	padding: 0px 50px 40px;
 }
