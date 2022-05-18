@@ -1,0 +1,72 @@
+/* Base */
+
+body {
+	background: #e6e6e6;
+}
+
+/* Typography */
+
+body {
+	color: #404040;
+	font-family: 'Comfortaa', Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+    clear: both;
+    font-family: 'Consolas', serif;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    margin-bottom: 1em;
+    color: #898989;
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+/* Cards */
+
+.card {
+	background: white;
+	margin-bottom: 2em;	
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card-content {
+	padding: 15px;
+}
+
+.card-content h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 80%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+.card {
+    flex: 0 1 30%;
+}
