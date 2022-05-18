@@ -4,6 +4,12 @@ body {
 	background: #e6e6e6;
 }
 
+.section-heading {
+  text-align: center;
+  margin: 0 auto 35px auto;
+  font-size: 36px;
+}
+
 /* Typography */
 
 body {
@@ -42,7 +48,6 @@ header {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 20px 35px;
-	background-color: var(--tertiary-color);
   }
   
   header h1 {
@@ -73,6 +78,16 @@ header {
 	padding: 10px 15px;
 	font-size: 1.5vw;
   }
+
+/* About */
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 50px 40px;
+}
 
 /* Work */
 
@@ -107,3 +122,12 @@ header {
 	font-size: 80%;
 }
 
+/* Contact */
+
+.contact {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 50px 40px;
+}
