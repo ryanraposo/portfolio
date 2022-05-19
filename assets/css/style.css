@@ -161,3 +161,18 @@ header {
 	color: var(--text-color);
 	text-decoration: none;
 }
+
+/* MEDIA QUERY: Smaller Desktops and Smaller */
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY: Tablets and Smaller */
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY: Mobile Phones and Smaller */
+@media screen and (max-width: 575px) {
+
+}
