@@ -17,45 +17,15 @@ body {
 .section-heading {
   text-align: center;
   margin: 0 auto 35px auto;
-  font-size: 36px;
 }
-
-/* Typography */
-
-body {
-	color: var(--text-color);
-	font-family: 'Comfortaa', Arial, sans-serif;
-	line-height: 1.5;
-	font-size: 18px;
-}
-
-h1, h2, h3 {
-    clear: both;
-    font-family: 'Consolas', serif;
-    letter-spacing: 2px;
-}
-
-h2 {
-    color: var(--heading-color);
-}
-
-p {
-    margin-bottom: 1em;
-    color: var(--text-color);
-}
-
-/* Navigation */
-
 
 /* About */
 
 .about {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
 	justify-content: center;
-	text-align: center;
 	align-items: center;
+	text-align: center;
 }
 
 /* Work */
