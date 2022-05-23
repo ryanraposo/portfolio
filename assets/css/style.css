@@ -1,17 +1,8 @@
 /* Variables */
 
 :root {
-	--primary-background-color: #26292b;
-	--secondary-background-color: #181a1b;
-	--heading-color: #e8e6e3;
-	--text-color: #9d9588;
-}
-
-
-/* Base */
-
-body {
-	background: var(--primary-background-color);
+	--primary-background-color: #ffffff;
+	--secondary-background-color: #f8f9fa;
 }
 
 .section-heading {
@@ -49,7 +40,16 @@ body {
 
 .card {
 	width: 45vw;
-	height: auto
+	height: auto;
+}
+
+.card-body {
+	background-color: var(--secondary-background-color);
+}
+
+.card a {
+	text-decoration: none;
+	color: #181a1b;
 }
 
 /* Contact */
