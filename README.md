@@ -4,8 +4,8 @@
 A website to showcase my projects.
 
 ## Built With
-* HTML
-* CSS
+* React
+* Bootstrap
 
 ## Website
 https://ryanraposo.github.io/portfolio/
