@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import Navigation from './components/Navigation';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
       case pages[0]:
         return (<About />);
       case pages[1]:
-        return (<></>);
+        return (<Portfolio />);
       case pages[2]: // Contact
         return (<></>);
       case pages[3]: // Resume
