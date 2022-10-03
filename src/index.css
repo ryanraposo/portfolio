@@ -29,3 +29,9 @@ footer {
 .footer-copyright {
   color: #c7c8c9;
 }
+
+a.social {
+  margin: 0 0.5rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
