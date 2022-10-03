@@ -3,6 +3,8 @@ import { useState } from 'react';
 import Navigation from './components/Navigation';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+
 
 function App() {
 
@@ -21,9 +23,9 @@ function App() {
         return (<About />);
       case pages[1]:
         return (<Portfolio />);
-      case pages[2]: // Contact
-        return (<></>);
-      case pages[3]: // Resume
+      case pages[2]: 
+        return (<Contact />);
+      case pages[3]:
         return (<></>);
       default:
         return (<></>);
