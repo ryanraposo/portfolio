@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -26,9 +27,9 @@ function App() {
       case pages[2]: 
         return (<Contact />);
       case pages[3]:
-        return (<></>);
+        return (<Resume />);
       default:
-        return (<></>);
+        return (<About />);
     }
   }
   
@@ -45,5 +46,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
