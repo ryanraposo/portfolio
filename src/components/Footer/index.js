@@ -1,8 +1,8 @@
 function Footer() {
     return (
-        <footer className="page-footer font-small pt-4">
+        <footer className="footer">
             <div className="footer-copyright text-center py-3">
-                ©2022 Copyright: Ryan Raposo
+                ©2022 Ryan Raposo
             </div>
         </footer>
     )
