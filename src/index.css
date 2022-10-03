@@ -18,6 +18,8 @@ code {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #80878f;
+
 }
 
 footer {
@@ -34,4 +36,9 @@ a.social {
   margin: 0 0.5rem;
   transition: transform 250ms;
   display: inline-block;
+}
+
+.projects {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
