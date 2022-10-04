@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0930eabe.css",
-    "main.js": "/portfolio/static/js/main.9469f10b.js",
+    "main.js": "/portfolio/static/js/main.ea5a7ea8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/readirect-card-image.png": "/portfolio/static/media/readirect-card-image.c6d1d03412202c6420f3.png",
     "static/media/portfoliogenerator-card-image.png": "/portfolio/static/media/portfoliogenerator-card-image.1458b36119d26169c97b.png",
@@ -10,13 +10,16 @@
     "static/media/resume-ryan-raposo.pdf": "/portfolio/static/media/resume-ryan-raposo.59b52d1dda5f9dcb1536.pdf",
     "static/media/pethub-card-image.png": "/portfolio/static/media/pethub-card-image.d72c35cafb28dacecce3.png",
     "static/media/codeui-card-image.png": "/portfolio/static/media/codeui-card-image.40e28dcdeae1deb167f3.png",
+    "static/media/github.svg": "/portfolio/static/media/github.0f863a81f2cadc3ff52b02599b93c6e5.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.aa216ab4964e9888094ae20707c7a525.svg",
+    "static/media/stackoverflow.svg": "/portfolio/static/media/stackoverflow.77fec290617ae1e97675aacbbbbb1a9f.svg",
     "main.0930eabe.css.map": "/portfolio/static/css/main.0930eabe.css.map",
-    "main.9469f10b.js.map": "/portfolio/static/js/main.9469f10b.js.map",
+    "main.ea5a7ea8.js.map": "/portfolio/static/js/main.ea5a7ea8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0930eabe.css",
-    "static/js/main.9469f10b.js"
+    "static/js/main.ea5a7ea8.js"
   ]
 }
