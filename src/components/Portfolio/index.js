@@ -9,21 +9,21 @@ function Portfolio() {
             name: "CodeUI",
             tech: "Typescript, Node, Electron",
             description: "Easily customize your color theme for VS Code",
-            image: "/assets/images/codeui-card-image.png",
+            image: require("../../assets/images/codeui-card-image.png"),
             github: "https://github.com/ryanraposo/codeui"
         },
         {
             name: "Shard Projector",
             tech: "Python, TKinter", 
             description: "Desktop dedicated servers for SteamCMD-based games",
-            image: "/assets/images/shardprojector-card-image.png",
+            image: require("../../assets/images/shardprojector-card-image.png"),
             github: "https://github.com/ryanraposo/shard-projector"
         },
         {
             name: "PetHub",
             tech: "Node, Express, MySQL",
             description: "Share your pets and find resources in your area",
-            image: "/assets/images/pethub-card-image.png",
+            image: require("../../assets/images/pethub-card-image.png"),
             github: "https://github.com/Beca-d/Project2",
             deployed: "https://pets-projects.herokuapp.com/"
         },
@@ -31,7 +31,7 @@ function Portfolio() {
             name: "READirect",
             tech: "HTML/JS/CSS, Bulma",
             description: "Pulls reviews on book-movie adaptations for easier comparison",
-            image: "/assets/images/readirect-card-image.png",
+            image: require("../../assets/images/readirect-card-image.png"),
             github: "https://github.com/katiebutler37/readirect",
             deployed: "https://katiebutler37.github.io/readirect/"
         },
@@ -39,14 +39,14 @@ function Portfolio() {
             name: "Portfolio Generator",
             tech: "Node, Inquirer",
             description: "Answer a series of questions to generate a portfolio",
-            image: "/assets/images/portfoliogenerator-card-image.png",
+            image: require("../../assets/images/portfoliogenerator-card-image.png"),
             github: "https://github.com/ryanraposo/portfolio-generator"
         },
         {
             name: "Poetai",
             tech: "Python, Numpy, Tensorflow",
             description: "A tool for human-machine collaboration in poetry",
-            image: "/assets/images/poetai-card-image.png",
+            image: require("../../assets/images/poetai-card-image.png"),
             github: "https://github.com/ryanraposo/poetai"
         }
     ])
