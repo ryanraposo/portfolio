@@ -9,7 +9,7 @@ A website to showcase my projects.
 
 ## Screenshot
 
-![Portfolio](./public/assets/images/ss-1.png)
+![Portfolio](/src/assets/images/ss-1.png)
 
 ## Website
 https://ryanraposo.github.io/portfolio
