@@ -1,10 +1,9 @@
-function Resume() {
+function Resume({ file }) {
     return (
         <div>
-            <a href={require("../../assets/resume-ryan-raposo.pdf")} download>Resume</a>
+            <a href={file} download>Resume</a>
         </div>
     );
 }
-
 
 export default Resume;

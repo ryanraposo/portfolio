@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
+import resumePDF from './resume-ryan-raposo.pdf';
+
 
 function App() {
 
@@ -28,7 +30,7 @@ function App() {
       case pages[2]: 
         return (<Contact />);
       case pages[3]:
-        return (<Resume />);
+        return (<Resume file={resumePDF} />);
       default:
         return (<About />);
     }
