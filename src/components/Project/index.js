@@ -1,19 +1,15 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-
-
-function Project({ name, description, image, link }) {
+function Project({ name, tech, description, image, github, deployed}) {
     return (
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={image} />
-          <Card.Body>
-            <Card.Title>{name}</Card.Title>
-            <Card.Text>
-              {description}
-            </Card.Text>
-            <Button variant="primary" href={link}>GitHub</Button>
-          </Card.Body>
-        </Card>
+      <div class="card">
+        <img src={image} class="card-img-top" alt="..."/>
+        <div class="card-body">
+          <h5 class="card-title">{name}</h5>
+          <h6 class="card-subtitle mb-2">{tech}</h6>
+          <p class="card-text">{description}</p>
+          {deployed !== undefined ? <a href={deployed} class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a> : <div></div>}
+          <a href={github} class="btn "><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
     );
 }
 
