@@ -36,11 +36,12 @@ function Portfolio() {
             deployed: "https://katiebutler37.github.io/readirect/"
         },
         {
-            name: "Portfolio Generator",
-            tech: "Node, Inquirer",
-            description: "Answer a series of questions to generate a portfolio",
-            image: require("../../assets/images/portfoliogenerator-card-image.png"),
-            github: "https://github.com/ryanraposo/portfolio-generator"
+            name: "Whats Cookin'",
+            tech: "Mongodb, Express, React, Node.js",
+            description: "A food blogging site",
+            image: require("../../assets/images/whatscookin-card-image.png"),
+            github: "https://github.com/ryanraposo/whats-cookin",
+            deployed: "https://floating-river-67151.herokuapp.com/"
         },
         {
             name: "Poetai",
@@ -69,7 +70,7 @@ function Portfolio() {
                     <Project name={projects[3].name} tech={projects[3].tech} description={projects[3].description} image={projects[3].image} github={projects[3].github} deployed={projects[3].deployed} />
                 </div>
                 <div class="col">
-                    <Project name={projects[4].name} tech={projects[4].tech} description={projects[4].description} image={projects[4].image} github={projects[4].github} />
+                    <Project name={projects[4].name} tech={projects[4].tech} description={projects[4].description} image={projects[4].image} github={projects[4].github} deployed={projects[4].deployed} />
                 </div>
                 <div class="col">
                     <Project name={projects[5].name} tech={projects[5].tech} description={projects[5].description} image={projects[5].image} github={projects[5].github} />
